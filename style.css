@@ -23,6 +23,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background-color: rgb(140, 134, 134);
 }
 
 header{
@@ -34,7 +35,11 @@ header{
 .logo{
     height: 64px;
     width: 80px;
-    background-color: lightgray;
+    object-fit: cover;
+    background-image: url(./escudo\ 1.0.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
 }
 .menu ul{
     display: flex;
@@ -45,7 +50,7 @@ header{
 main{
     flex-grow: 1;
     display: flex;
-    background-color: white;
+    background-color: rgb(140, 134, 134);
 }
 
 .conteudo{
@@ -56,11 +61,19 @@ main{
     justify-content: space-between;
 
 }
+.destaque{
+    background-image: url(./torcida.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-color: gray;
+
+}
 .conteudo h1{
     font-size: 80px;
 }
 .conteudo p{
-    font-size: 48px;
+    font-size: 90px;
 }
 .conteudo button{
     height: 64px;
@@ -79,18 +92,41 @@ main{
 .social div{
     height: 80px;
     width: 80px;
-    background-color:black;
+    background-color: lightgray;
     border-radius: 50%;
+
+}
+.social div.Youtube{
+    background-image: url(./novo-design-de-icone-x-do-logotipo-do-twitter-em-2023_1017-45418.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.social div.Instagram{
+    background-image: url(./instagram\ 2.0.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.social div.TikTok{
+    background-image: url(./ttk.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 .destaque{
     width: 50%;
-    background-color: lightgray;
+    background-color: black;
+
 }
 footer{
     height: 100px;
     display: flex;
     justify-content: center;
-    color:black;
+    color: black;
     align-items: center;
 }
