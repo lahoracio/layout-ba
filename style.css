@@ -44,20 +44,53 @@ header{
 
 main{
     flex-grow: 1;
-    background-color: plum;
     display: flex;
+    background-color: white;
 }
 
 .conteudo{
     width: 50%;
-    background-color: tomato;
+    padding-right: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.conteudo h1{
+    font-size: 80px;
+}
+.conteudo p{
+    font-size: 48px;
+}
+.conteudo button{
+    height: 64px;
+    width: 300px;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+
 }
 
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social div{
+    height: 80px;
+    width: 80px;
+    background-color:black;
+    border-radius: 50%;
+
+}
 .destaque{
     width: 50%;
-    background-color: lightcoral;
+    background-color: lightgray;
 }
 footer{
     height: 100px;
-    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    color:black;
+    align-items: center;
 }
